@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestAutomation-SanitySuite" verbose="1" parallel="false">
+
+  <test name="Test Suite 1" preserve-order="true" verbose="2" >
+      <parameter name="browser" value="chrome"/>  
+    <classes>
+           <class name="module1.TestCase1" />
+    </classes>
+  </test>
+  
+ <!-- test name="Test Suite 2" preserve-order="true" verbose="2" >
+    <classes>
+           <class name="sanitySuite.TestCase_2_GoogleSearch" />
+    </classes>
+  </test-->
+  
+   
+</suite>
