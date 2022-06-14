@@ -3,6 +3,7 @@ package common;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import core.InitBrowser;
@@ -19,6 +20,8 @@ public class DriverClass {
 		driver=init.getDriver();
 		readLocators loc=new readLocators();
 		Locator=readLocators.mergedProperties;
+		Reporter.log(browser +" Vishwa");
 	}
 	
 }
+

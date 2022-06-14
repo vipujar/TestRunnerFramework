@@ -41,7 +41,7 @@ public class InitBrowser{
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("test-type");
-			options.addArguments("--headless", "window-size=1280,1024", "--no-sandbox"); // Enable for headless option
+			options.addArguments( "window-size=1280,1024", "--no-sandbox"); // Enable for headless option
 //			capabilities.setCapability("chrome.binary",System.getProperty("user.dir")+ File.separator +"drivers"+ File.separator +"chromedriver.exe");
 			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
 			 WebDriverListener listener = new DriverListerner();

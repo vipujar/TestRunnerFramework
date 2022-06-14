@@ -7,7 +7,7 @@
       <class name="module1.TestCase1">
         <methods>
           <include name="getBrowser"/>
-          <include name="test1"/>
+          <include name="myTest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- module1.TestCase1 -->
     </classes>

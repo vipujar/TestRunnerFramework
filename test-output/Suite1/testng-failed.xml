@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
-  <test name="Regression1(failed)">
+  <listeners>
+    <listener class-name="listerners.NgListener"/>
+  </listeners>
+  <test name="Test Suite 1(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="vishwanath.AppiumTest">
+      <class name="module1.TestCase1">
         <methods>
-          <include name="setUp"/>
-          <include name="testApp"/>
+          <include name="getBrowser"/>
+          <include name="myTest" invocation-numbers="1"/>
         </methods>
-      </class> <!-- vishwanath.AppiumTest -->
+      </class> <!-- module1.TestCase1 -->
     </classes>
-  </test> <!-- Regression1(failed) -->
+  </test> <!-- Test Suite 1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->
