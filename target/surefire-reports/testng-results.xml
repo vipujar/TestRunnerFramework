@@ -5,12 +5,12 @@
       <![CDATA[chrome Vishwa]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-06-19T04:54:34 IST" name="Suite1" finished-at="2022-06-19T04:55:21 IST" duration-ms="46176">
+  <suite started-at="2022-06-19T05:06:51 IST" name="Suite1" finished-at="2022-06-19T05:07:20 IST" duration-ms="28611">
     <groups>
     </groups>
-    <test started-at="2022-06-19T04:54:34 IST" name="Test Suite 1" finished-at="2022-06-19T04:55:21 IST" duration-ms="46176">
+    <test started-at="2022-06-19T05:06:51 IST" name="Test Suite 1" finished-at="2022-06-19T05:07:20 IST" duration-ms="28611">
       <class name="module1.TestCase1">
-        <test-method is-config="true" signature="getBrowser(java.lang.String)[pri:0, instance:module1.TestCase1@7fee8714]" started-at="2022-06-19T04:54:35 IST" name="getBrowser" finished-at="2022-06-19T04:55:05 IST" duration-ms="29862" status="PASS">
+        <test-method is-config="true" signature="getBrowser(java.lang.String)[pri:0, instance:module1.TestCase1@7fee8714]" started-at="2022-06-19T05:06:51 IST" name="getBrowser" finished-at="2022-06-19T05:07:06 IST" duration-ms="14375" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -24,7 +24,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- getBrowser -->
-        <test-method signature="myTest(int, int, int)[pri:0, instance:module1.TestCase1@7fee8714]" started-at="2022-06-19T04:55:05 IST" name="myTest" data-provider="data-provider" finished-at="2022-06-19T04:55:05 IST" duration-ms="19" status="PASS">
+        <test-method signature="myTest(int, int, int)[pri:0, instance:module1.TestCase1@7fee8714]" started-at="2022-06-19T05:07:06 IST" name="myTest" data-provider="data-provider" finished-at="2022-06-19T05:07:06 IST" duration-ms="15" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,7 +45,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myTest -->
-        <test-method signature="myTest(int, int, int)[pri:0, instance:module1.TestCase1@7fee8714]" started-at="2022-06-19T04:55:05 IST" name="myTest" data-provider="data-provider" finished-at="2022-06-19T04:55:05 IST" duration-ms="3" status="PASS">
+        <test-method signature="myTest(int, int, int)[pri:0, instance:module1.TestCase1@7fee8714]" started-at="2022-06-19T05:07:06 IST" name="myTest" data-provider="data-provider" finished-at="2022-06-19T05:07:06 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- myTest -->
-        <test-method signature="test1()[pri:0, instance:module1.TestCase1@7fee8714]" started-at="2022-06-19T04:55:05 IST" name="test1" finished-at="2022-06-19T04:55:21 IST" duration-ms="15781" status="PASS">
+        <test-method signature="test1()[pri:0, instance:module1.TestCase1@7fee8714]" started-at="2022-06-19T05:07:06 IST" name="test1" finished-at="2022-06-19T05:07:20 IST" duration-ms="14025" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
