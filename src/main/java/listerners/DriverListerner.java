@@ -1,12 +1,8 @@
 package listerners;
 
 import org.openqa.selenium.support.events.*;
-import org.xml.sax.Locator;
-
-import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.lang.reflect.Method;
-import java.util.logging.*;
 import org.openqa.selenium.*;
 public class DriverListerner implements WebDriverListener  {
 	Logger logger

@@ -5,8 +5,6 @@ import java.util.logging.Logger;
 import org.testng.annotations.Test;
 
 import common.DriverClass;
-import core.InitBrowser;
-import listerners.DriverListerner;
 
 public class TestCase1 extends DriverClass{
 	Logger logger

@@ -11,15 +11,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>17</java.version>
-        <!--Dependency Versions-->
-     
-       
         <log4j-api.version>2.17.1</log4j-api.version>
-     
         <selenium.version>4.1.0</selenium.version>
         <testng.version>7.3.0</testng.version>
-        <!--Plugin Versions-->
-
         <webdriver-manager.version>5.2.0</webdriver-manager.version>
         <selenium-chrome-driver>4.2.2</selenium-chrome-driver>
         <selenium-firefox-driver>4.2.2</selenium-firefox-driver>

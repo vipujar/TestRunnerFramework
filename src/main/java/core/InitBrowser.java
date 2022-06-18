@@ -1,18 +1,12 @@
 package core;
 
-import java.io.File;
 import java.util.logging.Logger;
 
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.events.EventFiringDecorator;
-import org.openqa.selenium.support.events.WebDriverListener;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import listerners.DriverListerner;
 
 public class InitBrowser{
 	private  WebDriver driver;
@@ -31,7 +25,7 @@ public class InitBrowser{
 	public void initMethod(String browser){
 		
 		if(browser.equalsIgnoreCase("chrome")) {
-			 WebDriverManager wdm = WebDriverManager.chromedriver().browserInDocker();
+			 //WebDriverManager wdm = WebDriverManager.chromedriver().browserInDocker();
 			//System.setProperty("webdriver.chrome.driver","C:\\Users\\vbp20\\Downloads\\chromedriver_win321"+ File.separator +"chromedriver.exe");
 			// To remove message "You are using an unsupported command-line flag: --ignore-certificate-errors.
 			// Stability and security will suffer."
