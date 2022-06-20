@@ -35,10 +35,8 @@ public class InitBrowser{
 			options.addArguments("test-type");
 			options.addArguments( "window-size=1280,1024", "--no-sandbox","--headless"); // Enable for headless option
 //			capabilities.setCapability("chrome.binary",System.getProperty("user.dir")+ File.separator +"drivers"+ File.separator +"chromedriver.exe");
-			final WebDriverManager wdm =
-				      WebDriverManager.chromedriver()
-				          .browserInDocker()
-				          .enableRecording();
+			WebDriverManager wdm = WebDriverManager.chromedriver().browserInDocker()
+		            .enableVnc().enableRecording();
 			 driver = wdm.create();
 			
 //			 WebDriverListener listener = new DriverListerner();
