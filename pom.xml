@@ -14,7 +14,7 @@
         <log4j-api.version>2.17.1</log4j-api.version>
         <selenium.version>4.1.0</selenium.version>
         <testng.version>7.3.0</testng.version>
-        <webdriver-manager.version>5.2.0</webdriver-manager.version>
+        <webdriver-manager.version>5.1.0</webdriver-manager.version>
         <selenium-chrome-driver>4.2.2</selenium-chrome-driver>
         <selenium-firefox-driver>4.2.2</selenium-firefox-driver>
     </properties>
