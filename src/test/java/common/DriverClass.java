@@ -5,7 +5,6 @@ import java.util.Properties;
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 import core.InitBrowser;
@@ -15,7 +14,7 @@ import utils.readLocators;
 public class DriverClass {
 	public WebDriver driver;
 	public Properties Locator;
-	@BeforeSuite
+	@BeforeClass
 	@Parameters({"browser"}) 
 	public void getBrowser(String browser) {
 		InitBrowser init=new InitBrowser();
