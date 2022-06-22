@@ -18,7 +18,7 @@ public class InitBrowser{
 	public void setDriver(WebDriver driver) {
 		this.driver = driver;
 	}
-
+	public InitBrowser() {};
 	Logger logger
     = Logger.getLogger(InitBrowser.class.getName());
 
