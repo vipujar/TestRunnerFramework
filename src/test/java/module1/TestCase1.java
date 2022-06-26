@@ -7,9 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import common.DriverClass;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import utils.readLocators;
 
 public class TestCase1 {
 	Logger logger= Logger.getLogger(TestCase1.class.getName());
@@ -28,13 +26,11 @@ public class TestCase1 {
       @Test
 	public void test1(){
     	  WebDriver driver;
-    	  Properties Locator;
-    	  readLocators loc=new  readLocators();
-  		Locator=readLocators.mergedProperties;
+    
     	  WebDriverManager wdm = WebDriverManager.chromedriver().browserInDocker();
 			 driver = wdm.create();
 		driver.get("https://github.com/");
-		logger.info(Locator.getProperty("twitter.login.username.xpath"));
+		//logger.info(Locator.getProperty("twitter.login.username.xpath"));
 		driver.close();
 		
 	}
