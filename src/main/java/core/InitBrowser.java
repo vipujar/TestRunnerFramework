@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class InitBrowser{
 	private  WebDriver driver;
@@ -35,10 +35,10 @@ public class InitBrowser{
 			options.addArguments("test-type");
 			options.addArguments( "window-size=1280,1024", "--no-sandbox","--headless"); // Enable for headless option
 //			capabilities.setCapability("chrome.binary",System.getProperty("user.dir")+ File.separator +"drivers"+ File.separator +"chromedriver.exe");
-			WebDriverManager wdm = WebDriverManager.chromedriver().browserInDocker()
-		            .enableVnc().enableRecording();
-			 driver = wdm.create();
-			
+//			WebDriverManager wdm = WebDriverManager.chromedriver().browserInDocker()
+//		            .enableVnc().enableRecording();
+//			 driver = wdm.create();
+//			
 //			 WebDriverListener listener = new DriverListerner();
 //			    
 //			WebDriver original = new ChromeDriver(options);
