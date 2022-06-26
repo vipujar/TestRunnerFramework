@@ -65,6 +65,7 @@
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>${webdriver-manager.version}</version>
+            <scope>test</scope>
         </dependency>
           <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -76,6 +77,11 @@
     		<artifactId>selenium-firefox-driver</artifactId>
     		<version>${selenium-firefox-driver}</version>
 		</dependency>
+		<dependency>
+		<groupId>org.apache.commons</groupId>
+		<artifactId>commons-io</artifactId>
+		<version>1.3.2</version>
+	</dependency>
     </dependencies>
   <build>  
   <plugins>
