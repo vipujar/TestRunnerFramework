@@ -31,8 +31,7 @@ public class TestCase1 {
     	  Properties Locator;
     	  readLocators loc=new  readLocators();
   		Locator=readLocators.mergedProperties;
-    	  WebDriverManager wdm = WebDriverManager.chromedriver().browserInDocker()
-		            .enableVnc().enableRecording();
+    	  WebDriverManager wdm = WebDriverManager.chromedriver().browserInDocker();
 			 driver = wdm.create();
 		driver.get("https://github.com/");
 		logger.info(Locator.getProperty("twitter.login.username.xpath"));
