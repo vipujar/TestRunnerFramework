@@ -5,10 +5,17 @@
  <listeners>
     <listener class-name="listerners.NgListener" />
 </listeners>
-  <test name="Test Suite 1" preserve-order="true" verbose="2" >
-       
+
+  
+  <test name="Test Suite 2" preserve-order="true" verbose="2" >
+       <groups>	
+				<run>	
+   					 <include name="kite" />	
+        		</run>	
+       		</groups>	
     <classes>
-           <class name="module1.TestCase1" />
+          
+           <class name="core.AppiumTest" />
     </classes>
   </test>
 </suite>

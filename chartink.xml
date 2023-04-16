@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+    <parameter name="browser" value="chrome"/>
+ <listeners>
+    <listener class-name="listerners.NgListener" />
+</listeners>
+  <test name="Test Suite 1" preserve-order="true" verbose="2" >
+       <groups>	
+				<run>	
+   					 <include name="chartink" />	
+        		</run>	
+       		</groups>	
+    <classes>
+          
+           <class name="core.AppiumTest" />
+    </classes>
+  </test>
+  
+  
+</suite>

@@ -1,3 +1,5 @@
+core\InitBrowser.class
+utils\readLocators.class
+core\AppiumTest.class
 listerners\NgListener.class
 listerners\DriverListerner.class
-utils\readLocators.class

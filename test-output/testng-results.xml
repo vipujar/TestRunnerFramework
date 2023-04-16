@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="106770" started-at="2023-04-16T11:53:33 IST" finished-at="2023-04-16T11:55:19 IST">
+    <groups>
+      <group name="kite">
+        <method signature="AppiumTest.asetUp()[pri:0, instance:core.AppiumTest@13eb8acf]" name="asetUp" class="core.AppiumTest"/>
+        <method signature="AppiumTest.btestApp()[pri:0, instance:core.AppiumTest@13eb8acf]" name="btestApp" class="core.AppiumTest"/>
+      </group> <!-- kite -->
+    </groups>
+    <test name="Test Suite 2" duration-ms="106770" started-at="2023-04-16T11:53:33 IST" finished-at="2023-04-16T11:55:19 IST">
+      <class name="core.AppiumTest">
+        <test-method status="PASS" signature="asetUp()[pri:0, instance:core.AppiumTest@13eb8acf]" name="asetUp" duration-ms="22788" started-at="2023-04-16T11:53:33 IST" finished-at="2023-04-16T11:53:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asetUp -->
+        <test-method status="PASS" signature="btestApp()[pri:0, instance:core.AppiumTest@13eb8acf]" name="btestApp" duration-ms="83707" started-at="2023-04-16T11:53:56 IST" finished-at="2023-04-16T11:55:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- btestApp -->
+      </class> <!-- core.AppiumTest -->
+    </test> <!-- Test Suite 2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
