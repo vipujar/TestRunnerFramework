@@ -67,7 +67,7 @@ public class AppiumTest {
 // //set the Launcher activity name of the app
 // capability.setCapability("appium:appActivity", "com.zerodha.kite3.MainActivity");
  capability.setCapability("appium:unlockType","pin"); 
- capability.setCapability("appium:unlockKey","9738");
+ capability.setCapability("appium:unlockKey","1234");
  capability.setCapability("appium:noReset", true);
  capability.setCapability("appium:autoLaunch", true);
 
