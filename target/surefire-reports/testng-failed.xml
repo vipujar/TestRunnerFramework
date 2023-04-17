@@ -5,18 +5,18 @@
   <listeners>
     <listener class-name="listerners.NgListener"/>
   </listeners>
-  <test thread-count="5" name="Test Suite 2(failed)" verbose="0">
+  <test thread-count="5" name="Test Suite 1(failed)" verbose="0">
     <groups>
       <run>
-        <include name="kite"/>
+        <include name="chartink"/>
       </run>
     </groups>
     <classes>
       <class name="core.AppiumTest">
         <methods>
-          <include name="btestApp"/>
+          <include name="chartinksetUp"/>
         </methods>
       </class> <!-- core.AppiumTest -->
     </classes>
-  </test> <!-- Test Suite 2(failed) -->
+  </test> <!-- Test Suite 1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

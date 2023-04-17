@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="170.928" tests="3" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="210.478" tests="3" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Windows\Temp\surefire17397832010970650532\surefirebooter-20230416093141360_3.jar C:\Windows\Temp\surefire17397832010970650532 2023-04-16T09-31-36_396-jvmRun1 surefire-20230416093141360_1tmp surefire_0-20230416093141360_2tmp"/>
+    <property name="sun.java.command" value="C:\Windows\Temp\surefire13164681947961636368\surefirebooter-20230416173436125_3.jar C:\Windows\Temp\surefire13164681947961636368 2023-04-16T17-34-31_862-jvmRun1 surefire-20230416173436125_1tmp surefire_0-20230416173436125_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\vbp20\eclipse-workspace\TestRunnerFramework\target\test-classes;C:\Users\vbp20\eclipse-workspace\TestRunnerFramework\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.10.1\maven-compiler-plugin-3.10.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.11.1\plexus-compiler-api-2.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-utils\3.4.1\plexus-utils-3.4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.11.1\plexus-compiler-manager-2.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.11.1\plexus-compiler-javac-2.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-server\2.5.0\selenium-server-2.5.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\bouncycastle\bcprov-jdk15\135\bcprov-jdk15-135.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.9\servlet-api-2.5-6.1.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.17.1\log4j-slf4j-impl-2.17.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.0\selenium-java-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.0\selenium-devtools-v85-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.0\selenium-devtools-v94-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.0\selenium-devtools-v95-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.0\selenium-devtools-v96-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.0\selenium-edge-driver-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.0\selenium-firefox-xpi-driver-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.0\selenium-ie-driver-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.0\selenium-opera-driver-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.0\selenium-safari-driver-4.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.2.2\selenium-chrome-driver-4.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.2.2\selenium-chromium-driver-4.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-json\4.2.2\selenium-json-4.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.2.2\selenium-firefox-driver-4.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.3\selenium-api-4.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.3\selenium-remote-driver-4.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-buffer\4.1.90.Final\netty-buffer-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-codec-http\4.1.90.Final\netty-codec-http-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-codec\4.1.90.Final\netty-codec-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-handler\4.1.90.Final\netty-handler-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-common\4.1.90.Final\netty-common-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.90.Final\netty-transport-classes-epoll-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.90.Final\netty-transport-classes-kqueue-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-native-epoll\4.1.90.Final\netty-transport-native-epoll-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.90.Final\netty-transport-native-kqueue-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.90.Final\netty-transport-native-unix-common-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport\4.1.90.Final\netty-transport-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-resolver\4.1.90.Final\netty-resolver-4.1.90.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-api\1.24.0\opentelemetry-api-1.24.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-context\1.24.0\opentelemetry-context-1.24.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.24.0\opentelemetry-exporter-logging-1.24.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.24.0\opentelemetry-sdk-metrics-1.24.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.24.0-alpha\opentelemetry-sdk-logs-1.24.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.24.0-alpha\opentelemetry-api-logs-1.24.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.24.0-alpha\opentelemetry-api-events-1.24.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.24.0\opentelemetry-sdk-common-1.24.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.24.0\opentelemetry-sdk-extension-autoconfigure-spi-1.24.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.24.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.24.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.24.0\opentelemetry-sdk-trace-1.24.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.24.0\opentelemetry-sdk-1.24.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.24.0-alpha\opentelemetry-semconv-1.24.0-alpha.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.14.2\byte-buddy-1.14.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.3\selenium-http-4.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.3\selenium-manager-4.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.3\selenium-support-4.8.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\cglib\cglib\3.3.0\cglib-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\googlecode\json-simple\json-simple\1.1\json-simple-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire17397832010970650532\surefirebooter-20230416093141360_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Windows\Temp\surefire13164681947961636368\surefirebooter-20230416173436125_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="18.0.1+10-24"/>
@@ -56,38 +56,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="asetUp" classname="core.AppiumTest" time="39.941">
-    <system-out><![CDATA[TestStarted:Sun Apr 16 09:31:50 IST 2023
+  <testcase name="asetUp" classname="core.AppiumTest" time="59.583">
+    <system-out><![CDATA[TestStarted:Sun Apr 16 17:34:44 IST 2023
 TestSuccess:asetUp
 ]]></system-out>
   </testcase>
-  <testcase name="btestApp" classname="core.AppiumTest" time="64.32">
-    <failure message="Index 2 out of bounds for length 1" type="java.lang.ArrayIndexOutOfBoundsException"><![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 1
-	at core.AppiumTest.getholdings(AppiumTest.java:252)
-	at core.AppiumTest.btestApp(AppiumTest.java:91)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-]]></failure>
+  <testcase name="btestApp" classname="core.AppiumTest" time="91.841">
     <system-out><![CDATA[App launched
 Available cash
 50,394.70
@@ -103,6 +77,9 @@ invested amount
 -
 N/A
 -
+Substr:price
+100.42
+653TN31-SG
 quantity
 0
 t1 quantity 1
@@ -118,9 +95,65 @@ absolute P and L
 last traded price
 141.75
 today's change percent 0.00%
+Substr:price
+139.35
+ANANTRAJ
+quantity
+13
+average price
+1380.00
+TRENT
+invested amount
+17,940.00
+P and L percent
+-1.32%
+absolute P and L
+-236.60
+last traded price
+1361.80
+today's change percent 0.00%
+Substr:price
+1380.00
+TRENT
+quantity
+47
+average price
+425.20
+WONDERLA
+invested amount
+19,984.40
+P and L percent
++3.94%
+absolute P and L
++787.25
+last traded price
+441.95
+today's change percent 0.00%
+Substr:price
+425.20
+WONDERLA
+quantity
+40
+average price
+482.80
+ZYDUSLIFE
+invested amount
+19,312.00
+P and L percent
++4.59%
+absolute P and L
++886.00
+last traded price
+504.95
+today's change percent +0.26%
+Substr:price
+482.80
+ZYDUSLIFE
+holdings:0
+TestSuccess:btestApp
 ]]></system-out>
   </testcase>
-  <testcase name="cbuylist" classname="core.AppiumTest" time="59.292">
+  <testcase name="cbuylist" classname="core.AppiumTest" time="54.995">
     <system-out><![CDATA[67.2
 quantity=297
 Markets are closed
@@ -139,8 +172,8 @@ Capabilities {appium:app: C:\Users\vbp20\Downloads\ze..., appium:appPackage: com
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at core.AppiumTest.addstock(AppiumTest.java:218)
-	at core.AppiumTest.cbuylist(AppiumTest.java:138)
+	at core.AppiumTest.addstock(AppiumTest.java:220)
+	at core.AppiumTest.cbuylist(AppiumTest.java:140)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)

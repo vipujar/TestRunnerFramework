@@ -116,7 +116,7 @@ getpositions();
 
  }
  
- @Test(groups= {"kite1"})
+ @Test(groups= {"kite"})
  public void cbuylist() {
 	 JSONParser parser = new JSONParser();
 	  try {
@@ -341,10 +341,11 @@ public void getpositions() throws InterruptedException, Exception {
 		
 		// 3 Setup a name of Android web browser to automate.
 		capability.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
+		capability.setCapability("chromedriverExecutable","C:\\Users\\vbp20\\Downloads\\chromedriver_win112\\chromedriver.exe");
 		capability.setCapability(MobileCapabilityType.AUTOMATION_NAME, "UiAutomator2");
 		 capability.setCapability("appium:unlockType","pin"); 
 		 capability.setCapability("appium:unlockKey","9738");
-		 capability.setCapability("appium:noReset", true);
+		 capability.setCapability("appium:noReset", false);
 		 capability.setCapability("appium:autoLaunch", true);
 		// 4 Create an Android driver to initiate the session to Appium server. 
 		URL url = new URL("http://127.0.0.1:4723/wd/hub");					
@@ -360,16 +361,28 @@ public void getpositions() throws InterruptedException, Exception {
 
 
 //driver object with new Url and Capabilities
-
+		 driver.get("https://chartink.com/screener/short-2023-01-07-1");
+		 List<WebElement> indexes= driver.findElements(By.xpath("//table[@id='DataTables_Table_0']/tbody/tr//td[3]"));
+		 boolean niftystrength=false;
+		 if(indexes.size()>=1) {
+			 for(WebElement index :indexes) {
+				 System.out.println("index:"+index.getText());
+				 if(index.getText().equalsIgnoreCase("NIFTY")) {
+					 niftystrength=true;
+				 }
+			 }
+		 }
+		 JSONArray newlist = new JSONArray();
+if(niftystrength) {
  driver.get("https://chartink.com/screener/quant-t1");
  List<WebElement> names= driver.findElements(By.xpath("//table[@id='DataTables_Table_0']/tbody/tr//td[3]"));
 List<String> stocks;
-JSONArray newlist = new JSONArray();;
 
-JSONParser parser = new JSONParser();
-Object obj = parser.parse(new FileReader("./scanner.json"));
-JSONArray employeeList = (JSONArray) obj;
-//employeeList.forEach( emp -> parseEmployeeObject( (JSONObject) emp ) );
+
+//JSONParser parser = new JSONParser();
+//Object obj = parser.parse(new FileReader("./scanner.json"));
+//JSONArray employeeList = (JSONArray) obj;
+////employeeList.forEach( emp -> parseEmployeeObject( (JSONObject) emp ) );
 
 //     const config :string[]= JSON.parse(loadedConfig);
 System.out.println(names.size() +"======");
@@ -378,19 +391,22 @@ System.out.println(names.size() +"======");
      employeeDetails2.put("name", names.get(i).getText());
 	 newlist.add(employeeDetails2);
  }
- 
 
+}
+else {
+	System.out.println("NIfty is weak no scanning");
+}
 
- try (FileWriter file = new FileWriter("./scanner.json")) {
-     //We can write any JSONArray or JSONObject instance to the file
-     file.write(newlist.toJSONString()); 
-     file.flush();
+try (FileWriter file = new FileWriter("./scanner.json")) {
+    //We can write any JSONArray or JSONObject instance to the file
+    file.write(newlist.toJSONString()); 
+    file.flush();
 
- } catch (IOException e) {
-     e.printStackTrace();
- }
+} catch (IOException e) {
+    e.printStackTrace();
+}
 
- driver.quit();
+driver.quit();
  
  }
  private static void parseEmployeeObject(JSONObject employee) 

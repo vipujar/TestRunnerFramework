@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite1">
-                    <span>C:\Users\vbp20\eclipse-workspace\TestRunnerFramework\kite.xml</span>
+                    <span>C:\Users\vbp20\eclipse-workspace\TestRunnerFramework\chartink.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content passed suite-Suite1">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="core.AppiumTest" hash-for-method="asetUp">asetUp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="core.AppiumTest" hash-for-method="btestApp">btestApp</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite1" title="core.AppiumTest" hash-for-method="chartinksetUp">chartinksetUp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite1 -->
@@ -132,16 +127,9 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="asetUp">
-                  </a> <!-- asetUp -->
-                  <span class="method-name">asetUp</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="btestApp">
-                  </a> <!-- btestApp -->
-                  <span class="method-name">btestApp</span>
+                  <a name="chartinksetUp">
+                  </a> <!-- chartinksetUp -->
+                  <span class="method-name">chartinksetUp</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -149,7 +137,7 @@
         </div> <!-- panel Suite1 -->
         <div panel-name="test-xml-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\vbp20\eclipse-workspace\TestRunnerFramework\kite.xml</span>
+            <span class="header-content">C:\Users\vbp20\eclipse-workspace\TestRunnerFramework\chartink.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -160,16 +148,16 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;listerners.NgListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Test Suite 2&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Test Suite 1&quot;&gt;
     &lt;groups&gt;
       &lt;run&gt;
-        &lt;include name=&quot;kite&quot;/&gt;
+        &lt;include name=&quot;chartink&quot;/&gt;
       &lt;/run&gt;
     &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;core.AppiumTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test Suite 2 --&gt;
+  &lt;/test&gt; &lt;!-- Test Suite 1 --&gt;
 &lt;/suite&gt; &lt;!-- Suite1 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -181,7 +169,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test Suite 2 (1 class)</span>
+                <span class="test-name">Test Suite 1 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,14 +180,10 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">kite</span>
+              <span class="test-group-name">chartink</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">asetUp</span>
-                <br/>
-              </div> <!-- method-in-group -->
-              <div class="method-in-group">
-                <span class="method-in-group-name">btestApp</span>
+                <span class="method-in-group-name">chartinksetUp</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -219,15 +203,11 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'btestApp')
+data.setCell(0, 1, 'chartinksetUp')
 data.setCell(0, 2, 'core.AppiumTest')
-data.setCell(0, 3, 83707);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'asetUp')
-data.setCell(1, 2, 'core.AppiumTest')
-data.setCell(1, 3, 22788);
+data.setCell(0, 3, 63415);
 window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
 return data;
 }
@@ -247,15 +227,17 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite1" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
               <span class="ignored-class-name">core.AppiumTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">cbuylist</span>
+                <span class="ignored-method-name">btestApp</span>
                 <br/>
-                <span class="ignored-method-name">chartinksetUp</span>
+                <span class="ignored-method-name">asetUp</span>
+                <br/>
+                <span class="ignored-method-name">cbuylist</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -269,12 +251,8 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">core.AppiumTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">asetUp</span>
+                <span class="method-name">chartinksetUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">btestApp</span>
-                <span class="method-start">22823 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
